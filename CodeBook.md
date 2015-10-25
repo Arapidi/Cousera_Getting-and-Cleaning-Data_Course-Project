@@ -36,4 +36,8 @@ The following files are available for the train and test data. Their description
 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-Transformations:
+Prepared script run_analysis.R goes through the following steps:
+1. Merges data sets into new "merged" data set
+2. Extracts only the measurements on the mean and standard deviation from "merged" data set
+3. Appropriately labels the data set with descriptive variable names
+4. Creates independent tidy data set with the average of each variable for each activity and each subject
